@@ -1,0 +1,24 @@
+h1 {
+    font-weight: normal;
+}
+.couleur_titre {
+    color: #3f65f0;
+}
+header {
+    margin: 50px 200px 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.session {
+    margin: 5px;
+}
+.navigation {
+    color: black;
+    margin: 5px;
+}
+.bouton_session {
+    background-color: #3f65f0;
+    padding: 15px;
+    color: white;
+}

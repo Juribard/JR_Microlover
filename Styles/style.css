@@ -1,6 +1,5 @@
 /*page*/
 * {
-    margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
@@ -23,12 +22,28 @@ header {
 .navigation {
     color: black;
     margin: 5px;
+    text-decoration: none;
+    transition: 0.5s;
 }
+.navigation:hover {
+    color: #3f65f0;
+    border-bottom: 2px solid #3f65f0;
+}
+
 .bouton_session {
     background-color: #3f65f0;
+    border-radius: 20px;
     padding: 15px;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
+.bouton_session:hover {
+    background-color: white;
+    color: #3f65f0;
+    border: 2px solid;
+    border-color: #3f65f0;
+  }
 
 /*contenu*/
 .paragraphe {
@@ -48,12 +63,19 @@ h2 {
 }
 p {
     max-width: 45%;
+    margin-bottom: 50px;
 }
+
 .bouton_achat {
-    padding: 10px;
+    padding: 15px;
     background-color: #3f65f0;
-    margin: 50px;
-    border-radius: 5px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.bouton_achat:hover {
+    letter-spacing: 5px;
 }
 .image_pc {
     position: fixed;

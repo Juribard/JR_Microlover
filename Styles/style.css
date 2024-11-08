@@ -3,6 +3,37 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
+/*----ecran chargement-----*/
+.chargement {
+    display: none;
+    font-size: 2rem;
+    color: #3f65f0;
+}
+/* Rebond des points (chargement) */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Animation de disparition (loader)*/
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
 /*header*/
 h1 {
     font-weight: normal;
@@ -55,6 +86,7 @@ header {
 }
 .texte_color {
     color: #3f65f0;
+    font-style: italic;
 }
 
 h2 {

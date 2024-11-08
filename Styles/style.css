@@ -1,9 +1,9 @@
-/*page*/
+/*------------------------------------------page---------------------------------*/
 * {
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
-/*----ecran chargement-----*/
+/*------------------------------------ecran chargement---------------------------------------*/
 .chargement {
     display: none;
     font-size: 2rem;
@@ -34,7 +34,7 @@
     }
   }
 
-/*header*/
+/*------------------------------------header----------------------------*/
 h1 {
     font-weight: normal;
 }
@@ -60,6 +60,15 @@ header {
     color: #3f65f0;
     border-bottom: 2px solid #3f65f0;
 }
+.logo_achat {
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.logo_achat:hover {
+    color: #3f65f0;
+}
 
 .bouton_session {
     background-color: #3f65f0;
@@ -68,15 +77,15 @@ header {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    border: 2px solid;
+    border-color: #3f65f0;
 }
 .bouton_session:hover {
     background-color: white;
     color: #3f65f0;
-    border: 2px solid;
-    border-color: #3f65f0;
   }
 
-/*contenu*/
+/*------------------------------contenu---------------------------------------*/
 .paragraphe {
     margin-left: 100px;
     margin-right: 100px;
@@ -118,5 +127,14 @@ p {
     width: 600px;
     height: 600px;
     border-top-left-radius: 100%;
+}
+.pc_illustration {
+    transition: 0.5s;
+    margin-left: auto;
+    display: block;
+}
+.pc_illustration:hover {
+    width: auto;
+    transform: scale(0.75);
 }
 /*responsive*/
